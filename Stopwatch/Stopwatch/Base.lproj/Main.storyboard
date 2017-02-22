@@ -59,18 +59,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dB2-qV-yta">
-                                <rect key="frame" x="162" y="462" width="51" height="36"/>
-                                <color key="backgroundColor" red="0.96704755899999995" green="1" blue="0.96338704519999996" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="0.29360391895413562" green="0.75523221230714721" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2i-SN-eG7"/>
-                                    <action selector="stopPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PyG-gk-s7R"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -81,8 +69,6 @@
                             <constraint firstItem="UNZ-x0-aze" firstAttribute="top" secondItem="lfi-66-Mf9" secondAttribute="bottom" constant="100" id="K2q-4L-qPT"/>
                             <constraint firstItem="sFH-cB-6pj" firstAttribute="centerY" secondItem="YYe-Vo-7fS" secondAttribute="centerY" id="O0T-Kv-sel"/>
                             <constraint firstItem="YYe-Vo-7fS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="79" id="QfP-zB-dk7"/>
-                            <constraint firstItem="dB2-qV-yta" firstAttribute="top" secondItem="YYe-Vo-7fS" secondAttribute="bottom" constant="20" id="tA5-0q-xJt"/>
-                            <constraint firstItem="dB2-qV-yta" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uYX-Ri-cjc"/>
                             <constraint firstItem="lfi-66-Mf9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v6l-Rw-KBI"/>
                         </constraints>
                     </view>

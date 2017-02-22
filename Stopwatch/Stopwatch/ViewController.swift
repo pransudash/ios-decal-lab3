@@ -27,6 +27,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startPressed(_ sender: Any) {
+        stopwatch.reset()
+        updateView(min: 0, sec: 0, ms: 0);
         timer = Timer.scheduledTimer(timeInterval: 0.005, target: self,
                              selector: #selector(ViewController.updateTime),
                              userInfo: nil,
@@ -37,10 +39,10 @@ class ViewController: UIViewController {
         timer?.invalidate()
     }
     
-    @IBAction func resetPressed(_ sender: Any) {
-        stopwatch.reset()
-        updateView(min: 0, sec: 0, ms: 0);
-    }
+//    @IBAction func resetPressed(_ sender: Any) {
+//        stopwatch.reset()
+//        updateView(min: 0, sec: 0, ms: 0);
+//    }
     
     func updateTime() {
         let min: Int = stopwatch.getMin()
