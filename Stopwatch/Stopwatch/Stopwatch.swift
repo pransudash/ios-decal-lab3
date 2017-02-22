@@ -16,13 +16,13 @@ class Stopwatch {
     
     private var min: Int
     
-    private var startTime: Date
+//    private var startTime: Date
     
     init() {
         self.min = 0
         self.sec = 0
         self.ms = 0
-        self.startTime = Date()
+//        self.startTime = Date()
     }
     
     func getMin() -> Int {
@@ -31,7 +31,7 @@ class Stopwatch {
             self.sec = 0;
         }
         
-        var m: TimeInterval = self.startTime.timeIntervalSince(self.startTime)
+//        var m: TimeInterval = self.startTime.timeIntervalSince(self.startTime)
         
         return self.min
     }
